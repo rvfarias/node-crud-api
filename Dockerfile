@@ -3,7 +3,7 @@ FROM node:14
 #Create app directoory
 WORKDIR /app
 
-COPY package* .json ./
+COPY package.json ./
 
 RUN npm install
 

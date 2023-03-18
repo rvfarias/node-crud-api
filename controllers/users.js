@@ -40,6 +40,7 @@ exports.createUser = (req, res, next) => {
         console.log('Create User');
         res.status(201).json({
             message: 'User created successfully',
+            user: result
 
         });
 
